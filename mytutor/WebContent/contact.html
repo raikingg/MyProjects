@@ -1,0 +1,97 @@
+<html>
+<head>
+<style>
+     body
+{
+background-color:#641E16;
+	margin :0;
+	padding : 0;
+    text-align : center;
+	background-color : Linear-gradient4(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url (b1.jpg);
+	background-size : cover;
+	background-position: center;
+	font-family : sans-serif;
+	
+	}
+   
+   .contact-title
+   {
+	   margin-top: 100px;
+	   color : red;
+	   text-transform : uppercase;
+	   transition : all 4s ease-in-out;
+   }
+   
+   .contact-title h1
+   {
+	   font-size : 32px;
+	   Line-height : 10px;
+   }
+   .contact-title h2
+   {
+	   font-size : 16px;
+   }
+   
+   form {
+	   margin-top : 50px;
+	   transition : all 4s ease-in-out;
+   }
+   
+   .form-control {
+	   width = 600px;
+	   background : transparent;
+	   border: none;
+	   outline : none;
+	   border-bottom : 1px solid gray;
+	   color : #fff ;
+	   font-size : 18px;
+	   margin-bottom :16px;
+	   
+   }
+   
+   input
+   {
+	   height= 45px;
+   }
+   form.submit 
+   {
+	   background-color:#D1F2EB;
+	   border-color : transparent;
+	   color : #fff;
+	   font-size : 20px;
+	   font-weight : bold;
+	   letter-spacing :2px;
+	   height : 50px;
+	   margin-top :20px;
+   }
+   
+   form.submit:hover {
+	   background-color: #f443;
+	   cursor : pointer ;
+   }
+   
+   
+
+   </style>
+  
+   </head>
+   <body>
+   <div class ="contact-title">
+   <h1><font color="#bf00ff">Say Hello</font> </h1>
+   <h2><font color="#bf00ff"> We Are Ready To Serve You.</font> </h2>
+
+</div>
+
+
+   <div class = "contact-form">
+   <form id = "contact-form" action ="./contact"  method="post">
+   <input name = "t1" type="Text" class ="form-control" placeholder="Your Name " required  > <br>
+   <input name = "t2" type="email" class ="form-control" placeholder="Your Email " required > <br>
+   <input name = "t3" type="Text" class ="form-control" placeholder="client id" required  > <br>
+    <textarea name="t4" placeholder="Write something.." style="height:100px"></textarea> <br> <br>
+	<input type="submit" value="Submit">
+	</form>
+	
+	</div>
+</body>
+</html>   
